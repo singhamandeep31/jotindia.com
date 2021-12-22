@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73323fdd-6803-474e-8abb-d86574754390" name="Changes" comment="Added Christmas banner" />
+    <list default="true" id="73323fdd-6803-474e-8abb-d86574754390" name="Changes" comment="Added Christmas banner with discount rate changed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +53,9 @@
       <workItem from="1637540421922" duration="701000" />
       <workItem from="1637626225349" duration="26000" />
       <workItem from="1640023144541" duration="223000" />
+      <workItem from="1640048290273" duration="686000" />
+      <workItem from="1640060191670" duration="690000" />
+      <workItem from="1640078344302" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="Updating with Gajar kaa Halwa">
       <created>1636043204181</created>
@@ -94,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640023349400</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Christmas banner with discount rate changed">
+      <created>1640048341151</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640048341151</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +130,7 @@
     <MESSAGE value="edited the front page for thanksgiving" />
     <MESSAGE value="renamed thanksgiving" />
     <MESSAGE value="Added Christmas banner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Christmas banner" />
+    <MESSAGE value="Added Christmas banner with discount rate changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Christmas banner with discount rate changed" />
   </component>
 </project>
