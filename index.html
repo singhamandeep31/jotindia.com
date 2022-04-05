@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Defining keywords for search engine -->
+    <meta name="keywords" content="restaurants, restaurants near me, Indian food near me, Best Indian Restaurant in Newport, KY,
+    Indian Restaurant, Jot India, Amul India, Baba India, Best indian Restaurant, Shan India, Taj India, Royal Taj,
+    Taj Mahal Bar and Grill, Best Restaurant for Indian Food, Indian Food Restaurant, Indian Dishes, Indian Carryout,
+     Carryout, ToGo, Cheapest food service, High quality food, Best Rated Indian Restaurant, Best Rated Restaurant">
+    <!-- Defining a description for website -->
+    <meta name="description" content="Authentic Indian Food">
+    <!-- Defining the author of the page -->
+    <meta name="author" content="Ujjwal Pandit">
+    <!-- Refreshing document every 30 seconds-->
+    <meta http-equiv="refresh" content="300">
+    <!-- Setting the viewport to make your website look good on all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- For the navigation bar, we use bootstrap, so the css and js are below -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- For the logos for the navigation bar, we use bootstrap as below -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- For the social media link we use fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- For the slideshow animation, we are using w3schools css -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="ShowOnMobile">
+
+</div>
+<div class="HideOnMobile">
+    <div id="page">
+        <aside id="segment-bar"></aside>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <img src="Images/jot%20india%20logo.png" height="28" alt="CoolBrand">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="nav nav-tabs">
+                        <a href="home.html" class="nav-item nav-link active">
+                            <i class="bi-house-door"></i> Home</a>
+                        <a href="menu.html" class="nav-item nav-link">
+                            <i class="bi bi-journal-text"></i> Menu</a>
+                        <a href="reviews.html" class="nav-item nav-link">
+                            <i class="bi bi-hand-thumbs-up"></i> Reviews</a>
+                        <a href="about.html" class="nav-item nav-link">
+                            <i class="bi bi-palette2"></i> About Us</a>
+                        <a href="gallery.html" class="nav-item nav-link">
+                            <i class="bi bi-camera"></i> Gallery</a>
+                        <a href="contact.html" class="nav-item nav-link">
+                            <i class="bi bi-calendar2-check"></i> Contact Us</a>
+                        <a href="faq.html" class="nav-item nav-link" tabindex="-1">
+                            <i class="bi bi-phone"></i> FAQs</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Body part -->
+        <div class="row my-row">
+            <div class="col-7 my-col">
+                <!-- Here we are going to put slideshow inside 1st division -->
+                <main>
+                    <div class="slideshow-container">
+                        <div class = "mySlides fade">
+                            <div class="numbertext">1/3</div>
+                            <img src="/Images/inside_2.jpeg" style="width:100%">
+                            <div class="text">JOt Inside View</div>
+                        </div>
+
+                        <div class = "mySlides fade">
+                            <div class="numbertext">2/3</div>
+                            <img src="/Images/inside_1.jpeg" style ="width:100%">
+                            <div class="text">Jot Inside View</div>
+                        </div>
+
+                        <div class = "mySlides fade">
+                            <div class="numbertext">3/3</div>
+                            <img src="/Images/jot_from_outside.jpeg" style="width:100%">
+                            <div class="text">Jot from Outside</div>
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onlick="plusSlides(1)">&#10095;</a>
+                    </div>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </main>
+
+            </div>
+            <div class="col-5 my-col" id="information">
+		    <header>Jot India Restaurant</header>
+		    <h2>Open for Carryout and Dining</h2>
+				    <h3> Lunch Portions are available during lunch.</h3>
+				    <p>We are accepting reservations for dine-in. In accordance with our city guidelines, we will be seating a limited capacity with social distancing in mind.</p>
+				    <br>
+				    <br>
+	    <h2>Hours of Operation</h2>
+			    <h3>Tuesday - Friday</h3>
+			    <h4>Lunch: 11:00 am - 2:00 pm</h4>
+			    <h4>Dinner: 4:30 pm - 9:00 pm</h4>
+			    <br>
+			    <h3>Saturday</h3>
+			    <h4>Lunch: 11:30 am - 2:30 pm</h4>
+			    <h4>Dinner: 4:30 pm - 9:00 pm</h4>
+			    <br>
+			    <h3>Sunday</h3>
+			    <h4>Lunch: 11:30 am - 3:00 pm</h4>
+			    <h4>Dinner: 4:30 pm - 8:45 pm</h4>
+			    <br>
+			    <h3>Monday Closed</h3>
+	    </div>
+        </div>
+        <div class="row my-row">
+            <div class="col my-col">
+                <!--Google map-->
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3096.9637627432394!2d-84.48352824870705!3d39.084523143396204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b1da0ea2d607%3A0x59c0c78003d5d1f0!2sJot%20India%20Restaurant!5e0!3m2!1sen!2sus!4v1640508276298!5m2!1sen!2sus&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                            style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <!--Google Maps-->
+
+	    </div>
+        </div>
+
+        
+        <!-- Footer Section-->
+        <section class="section-subscribe bg-light">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md12 mb-4">
+                        <h1 class="heading">
+                            Get news &amp; updates
+                        </h1>
+                    </div>
+                    <div class="col-md12">
+                        <form action="" method="POST">
+                            <div class="row">
+                                <div class="col-md mb-4">
+                                    <input type="text" class="form-control" placeholder="Your name here">
+                                </div>
+
+                                <div class="col-md mb-4">
+                                    <input type="email" class="form-control" placeholder="Your email here">
+                                </div>
+
+                                <div class="col-md mb-4">
+                                    <input type="submit" class="btn btn-secondary w-100" value="Subscribe">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-3 mb-5">
+                        <h2><strong>About Us</strong> </h2>
+                        <p style="padding: 0.5px; text-align: left; font-size: 16px;">"Welcome to Jot India! It’s our great pleasure to introduce to various tastes of India. The taste that will make you travel all through India with just one bite. The traditions, the warmth are just one call away. Come experience our rich heritage!"</p>
+	<a href="#">Click here to learn more</a>
+	</p>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <h2><strong>Contact &amp; Address</strong> </h2>
+                        <ul class="list-unstyled footer-link">
+                            <li class="d-flex">
+                                <span class="me-3">Address</span><span class="text-white"> 1709 C, Monmouth St, Newport, KY 41071 </span>
+                            </li>
+                            <li class="d-flex">
+                                <span class="me-3">Telephone</span><span class="text-white">(859) 415-2000 </span>
+                            </li>
+                            <li class="d-flex">
+                                <span class="me-3">Email</span><span class="text-white">contactjotindia@gmail.com </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <h2><strong>Quick Links</strong> </h2>
+                        <ul class="list-unstyled footer-link">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Reservation</a></li>
+                            <li><a href="#">Contact Us</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h2><strong>Social media</strong> </h2>
+                        <ul class="list-unstyled footer-link d-flex">
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                            <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 text md center text-left">
+                            <p>This template is made with <i class="fa fa-heart-o"></i> by Ujjwal Pandit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<!-- This javascript file is for the sliding animation-->
+<script>
+    var slideIndex = 0;
+    showSlides();
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for(i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+
+</body>
+</html>
