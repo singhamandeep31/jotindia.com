@@ -1,10 +1,10 @@
 
 @media (max-width: 575.98px) {
     .HideOnMobile {
-        display: none;
+        display: initial;
     }
     .ShowOnMobile {
-        display: initial;
+        display: none;
     }
 }
 
